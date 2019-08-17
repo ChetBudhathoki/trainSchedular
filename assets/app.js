@@ -70,7 +70,7 @@
     // make sure the first trax time is after the eventual current time
     var firstTrxTimeConv = moment(firstTrxTime, "hh:mm a").subtract(1, "years");
     // store variable for current time
-    var currentTime = moment().format("HH:mm a");
+    var currentTime = moment().format("hh:mm a");
     console.log("Current Time:" + currentTime);
     // store variable for difference of current time and first trax time
     var trxTimeCurrentTimeDiff = moment().diff(moment(firstTrxTimeConv), "minutes");
