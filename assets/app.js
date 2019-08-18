@@ -1,15 +1,14 @@
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyDvddeAa3GtZT-IaEPFAwBKgtBiEwPpHHk",
-    authDomain: "trainschedular-4a30f.firebaseapp.com",
-    databaseURL: "https://trainschedular-4a30f.firebaseio.com",
-    projectId: "trainschedular-4a30f",
-    storageBucket: "trainschedular-4a30f.appspot.com",
-    messagingSenderId: "623307320782",
-    appId: "1:623307320782:web:05577d464caecd76"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
+var firebaseConfig = {
+  apiKey: "AIzaSyDvXhQWH4twu-94FseAQhPaemupE9FvEbA",
+  authDomain: "traxscheduler.firebaseapp.com",
+  databaseURL: "https://traxscheduler.firebaseio.com",
+  projectId: "traxscheduler",
+  storageBucket: "traxscheduler.appspot.com",
+  messagingSenderId: "585811011790",
+  appId: "1:585811011790:web:0ba15221726d1769"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
   
   // Create a variable to reference the database
   var database = firebase.database();
